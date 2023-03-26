@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>very cool calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<div id="container">
+
+		<h1>Very Cool Calculator</h1>
+		
+		<div id="instructions">
+			<p>Instructions:</p>
+			<p>1. Enter your first integer in the first box (x).</p>
+			<p>2. Enter your second integer in the second box (y).</p>
+			<p>3. Choose your desired operation using the following buttons. (add: +, subtract: -, multiply: •, divide: ÷</p>
+		</div>
+
+		<input type="text" value="x" id="xx">
+		<input type="text" value="y" id="yy">
+
+		<button onclick="plus()">+</button>
+		<button onclick="minus()">-</button>
+		<button onclick="times()">•</button>
+		<button onclick="by()">÷</button>
+
+		<h2 id="result">result...</h2>
+
+	</div>
+
+</body>
+</html>

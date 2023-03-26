@@ -1,0 +1,11 @@
+*{
+	font-family: monospace;
+	background-image: url(https://pbs.twimg.com/media/Fr-4jUdX0AQAcE_?format=jpg&name=medium);
+	padding: 5px;
+	color: whitesmoke;
+}
+#container{
+	width: 315px;
+	margin: auto;
+	margin-top: 130px;
+}
